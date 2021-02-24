@@ -1,12 +1,32 @@
+import {Link} from "react-router-dom"
+
 export const TopNav = ()=>(
-    <div className=" w-screen h-44">
+    <div className=" fixed top-0 w-screen flex justify-between h-12">
+        <div className="p-2 w-1/5 bg-black">
+
+        </div>
         <ul className="p-2 flex justify-between">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Sign in</li>
-            <li>Sign up</li>
-            <li>Resources</li>
+            <li className="ml-2">
+                <Link to="/">Home</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/About">About</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/Contact">Contact</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/Resources">Resources</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/Projects">Projects</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/SignIn">Sign in</Link>
+            </li>
+            <li className="ml-2">
+                <Link to="/Signup">Sign up</Link>
+            </li>
         </ul>
     </div>
 )

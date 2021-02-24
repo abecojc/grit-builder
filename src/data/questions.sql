@@ -1,0 +1,10 @@
+insert into questions (id, description) values (1, 'Seamless tangible workforce');
+insert into questions (id, description) values (2, 'Face to face optimal software');
+insert into questions (id, description) values (3, 'Expanded 3rd generation pricing structure');
+insert into questions (id, description) values (4, 'User-centric responsive projection');
+insert into questions (id, description) values (5, 'Progressive multimedia ability');
+insert into questions (id, description) values (6, 'Secured object-oriented migration');
+insert into questions (id, description) values (7, 'Programmable disintermediate concept');
+insert into questions (id, description) values (8, 'Integrated tertiary alliance');
+insert into questions (id, description) values (9, 'Progressive 24 hour open architecture');
+insert into questions (id, description) values (10, 'Networked object-oriented benchmark');
