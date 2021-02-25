@@ -5,9 +5,9 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgresql://user:pass@db:5022/grit_builder
+      DATABASE_URL: postgresql://user:pass@db:5432/grit_builder
       NODE_ENV: development
-      PORT: 5022
+      PORT: 3000
     ports:
       - "5022:5000"
     command: npm run server
