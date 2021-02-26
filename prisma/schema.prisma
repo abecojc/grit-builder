@@ -22,8 +22,8 @@ model project {
     id Int @id @default(autoincrement())
     name String
     description String
-    duration time
-    date_added date
+    duration Int
+    date_added Int
 
     @@map("projects")
 }
@@ -38,8 +38,8 @@ model question {
 
 model choice {
     id Int @id @default(autoincrement())
-    detail TEXT
-    pick boolean
+    detail String
+    pick String
 
     @@map("choices")
 }
