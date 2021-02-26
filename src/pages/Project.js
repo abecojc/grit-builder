@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 
-export const  Projects = () => (
+export const  Project = () => (
     <div>
         <p>Projects</p>
         <ul>
@@ -20,6 +20,7 @@ export const  Projects = () => (
 
     </div>
 )
+//export default Project
 
 export class AllProjects {
 }

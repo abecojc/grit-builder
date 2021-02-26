@@ -19,7 +19,7 @@ export const TopNav = ()=>(
                 <Link to="/Resources">Resources</Link>
             </li>
             <li className="ml-2">
-                <Link to="/Projects">Projects</Link>
+                <Link to="/Project">Project</Link>
             </li>
             <li className="ml-2">
                 <Link to="/SignIn">Sign in</Link>

@@ -1,12 +1,12 @@
 import {Route, Switch} from "react-router-dom"
-import {About, Home,  SignIn, Signup, Test, Contact} from "./pages"
-// Projects, index,
+import Project,{About, Home,  SignIn, Signup, Test, Contact} from "./pages"
+
 function App() {
     return (
         <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/About" component={About} />
-            {/*<Route exact path="/Projects" component={Projects} />*/}
+            <Route exact path="/Project" component={Project} />
             {/*<Route exact path="/index" component={index}/>*/}
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/SignIn" component={SignIn} />
