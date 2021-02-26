@@ -1,5 +1,5 @@
 import {Route, Switch} from "react-router-dom"
-import Project,{About, Home,  SignIn, Signup, Test, Contact} from "./pages"
+import {About, Home, SignIn, Signup, Test, Project, Contact} from "./pages"
 
 function App() {
     return (

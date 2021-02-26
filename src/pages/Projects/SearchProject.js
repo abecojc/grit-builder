@@ -1,5 +1,4 @@
 import {Footer, TopNav} from "../../components/ui";
-// import {UpdateProject} from "/UpdateProject";
 
 export const SearchProject = () => (
     <>
@@ -8,7 +7,6 @@ export const SearchProject = () => (
                Search Project
                 <hr/>
             </div>
-        {/*<UpdateProject/>*/}
         <Footer/>
     </>
 )

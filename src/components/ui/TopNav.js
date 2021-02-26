@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom"
 
 export const TopNav = ()=>(
-    <div className=" fixed top-0 w-screen flex justify-between h-12">
-        <div className="p-2 w-1/5 bg-black">
-
+    <div className=" fixed top-0 w-full flex justify-between h-16 bg-blue-300">
+        <div className="p-4 m-2 rounded-xl text-white font-bold font-serif bg-black">
+           Grit
         </div>
         <ul className="p-2 flex justify-between">
             <li className="ml-2">
@@ -22,10 +22,10 @@ export const TopNav = ()=>(
                 <Link to="/Project">Project</Link>
             </li>
             <li className="ml-2">
-                <Link to="/SignIn">Sign in</Link>
+                <Link to="/SignIn">Member</Link>
             </li>
             <li className="ml-2">
-                <Link to="/Signup">Sign up</Link>
+                <Link to="/Signup">Register</Link>
             </li>
         </ul>
     </div>

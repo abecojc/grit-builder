@@ -48,17 +48,5 @@
     "prisma": "2.17.0",
     "react-router-dom": "^5.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "craco.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abecojc/grit-builder.git"
-  },
-  "author": "abecojc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abecojc/grit-builder/issues"
-  },
-  "homepage": "https://github.com/abecojc/grit-builder#readme"
+  }
 }

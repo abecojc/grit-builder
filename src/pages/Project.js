@@ -1,35 +1,18 @@
-import {Link} from "react-router-dom"
+
+import {Footer, TopNav} from "../components/ui"
 
 export const  Project = () => (
-    <div>
-        <p>Projects</p>
-        <ul>
-            <li>
-                <Link to="/AddProject">Add Project</Link>
-            </li>
-            <li>
-                <Link to="/SearchProject">Search Project</Link>
-            </li>
-            <li>
-                <Link to="/UpdateProject">Update Project</Link>
-            </li>
-            <li>
-                <Link to="/AllProjects">All Projects</Link>
-            </li>
-        </ul>
+    <>
+        <TopNav/>
+            <div className="h-screen bg-blue-300">
+                <p className="text-2xl flex justify-center m-12 p-6">Projects Area</p>
+                <div className="text-2xl m-6 p-6">Add your Project</div>
+                <div className="text-2xl m-6 p-6">Search for a project</div>
+                <div className="text-2xl m-6 p-6">Update a project</div>
+                <div className="text-2xl m-6 p-6">All projects</div>
 
-    </div>
+            </div>
+        <Footer/>
+    </>
 )
-//export default Project
-
-export class AllProjects {
-}
-
-export class UpdateProject {
-}
-
-export class SearchProject {
-}
-
-export class AddProject {
-}
+export default Project;

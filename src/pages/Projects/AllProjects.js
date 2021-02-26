@@ -1,7 +1,4 @@
 import {Footer, TopNav} from "../../components/ui";
-// import {SearchProject} from "/SearchProject";
-// import {UpdateProject} from "/UpdateProject";
-// import {AddProject} from "/AddProject";
 
 export const AllProjects = () => (
     <>
@@ -10,9 +7,6 @@ export const AllProjects = () => (
                  AllProjects
                  <hr/>
             </div>
-        {/*<SearchProject/>*/}
-        {/*<UpdateProject/>*/}
-        {/*<AddProject/>*/}
         <Footer/>
     </>
 )

@@ -1,7 +1,7 @@
 export const Footer = () => (
-    <div className="fixed bottom-0">
-        <hr className=" bg-blue-300"/>
-        <div className="p-3 flex text-center">
+    <div className="fixed bg-white bottom-0">
+        <hr className=" w-screen bg-blue-300"/>
+        <div className="p-3 flex justify-center">
             © 2021 Grit Builder App.
         </div>
     </div>
