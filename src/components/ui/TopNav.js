@@ -22,11 +22,15 @@ export const TopNav = ()=>(
                 <Link to="/Project">Project</Link>
             </li>
             <li className="ml-2">
+                <Link to="/Test">Test</Link>
+            </li>
+            <li className="ml-2">
                 <Link to="/SignIn">Member</Link>
             </li>
             <li className="ml-2">
                 <Link to="/Signup">Register</Link>
             </li>
+
         </ul>
     </div>
 )

@@ -4,8 +4,10 @@ export const  Test = () => (
     <>
         <TopNav/>
     <div>
-        <p>Test</p>
+        <p>Grit Scale Test</p>
+        <div>
 
+        </div>
     </div>
         <Footer/>
     </>
