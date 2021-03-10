@@ -1,9 +1,9 @@
 FROM node:latest
 WORKDIR ./app
 
-COPY package.json ./
+COPY package*.json ./
 RUN npm install
-COPY ./src .
-EXPOSE 8080
-
-CMD ["node", "server.mjs"]
+COPY . /app
+#EXPOSE 8080
+ENV NODE_ENV=production
+CMD ["npm", "server"]
