@@ -10,56 +10,56 @@ export const Home = () => (
             </div>
         </div>
         <Footer/>
-<div className="bg-blue-300 h-screen px-12 ">
-        <div  className=" pt-44  flex m-2 justify-center justify-between">
-                <div className="my-4 p-2">
-                    <h2 className="font-bold ">Visitors</h2>
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>FAQs</li>
-                        <li>Terms and conditions</li>
-                        <li>Privacy Policy</li>
-                    </ul>
-                </div>
-                <div className="my-4 p-2">
-                    <h2 className=" font-bold">Our vision</h2>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Community</li>
-                        <li>Grit value</li>
-                        <li>Future</li>
-                    </ul>
-                </div>
-                <div className="my-4 p-2">
-                    <h2 className="font-bold ">Members</h2>
-                    <ul>
-                        <li>Sign In/Register</li>
-                        <li>Your projects</li>
-                        <li>Testimonials</li>
-                        <li>Resources</li>
-                    </ul>
-                </div>
-                <div className="my-4 p-2">
-                    <h2 className="font-bold ">Partners</h2>
-                    <ul>
-                        <li>ULEM</li>
-                        <li>YMCA</li>
-                        <li>YWCA</li>
-                        <li>To-do-ist</li>
-                    </ul>
-                </div>
+<div className="h-screen pt-72 bg-grit2 bg-contain w-screen bg-transparent m-2 rounded-xl bg-auto bg-no-repeat">
+        <div  className="bg-blue-300 flex m-2 justify-center text-white justify-between">
+            <div className="my-4 p-2">
+                <h2 className="font-bold ">Visitors</h2>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>FAQs</li>
+                    <li>Terms and conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div className="my-4 p-2">
+                <h2 className=" font-bold">Our vision</h2>
+                <ul>
+                    <li>About Us</li>
+                    <li>Community</li>
+                    <li>Grit value</li>
+                    <li>Future</li>
+                </ul>
+            </div>
+            <div className="my-4 p-2">
+                <h2 className="font-bold ">Members</h2>
+                <ul>
+                    <li>Sign In/Register</li>
+                    <li>Your projects</li>
+                    <li>Testimonials</li>
+                    <li>Resources</li>
+                </ul>
+            </div>
+            <div className="my-4 p-2">
+                <h2 className="font-bold ">Partners</h2>
+                <ul>
+                    <li>ULEM</li>
+                    <li>YMCA</li>
+                    <li>YWCA</li>
+                    <li>To-do-ist</li>
+                </ul>
+            </div>
         </div>
-                <div className="my-4 ">
-                    <h2 className=" font-bold">Social Connect</h2>
-                    <div className="flex w-screen">
-                        <div className="mx-4">Facebook</div>
-                        <div className="mx-4">Twitter</div>
-                        <div className="mx-4">Instagram</div>
-                        <div className="mx-4">Clubhouse</div>
-                        <div className="mx-4">Youtube</div>
-                        <div className="mx-4">Github</div>
-                    </div>
-                </div>
+        <div className="my-4 bg-blue-300 flex m-2 justify-center text-white justify-between">
+            <h2 className=" font-bold">Social Connect</h2>
+            <div className="flex w-screen">
+                <div className="mx-4">Facebook</div>
+                <div className="mx-4">Twitter</div>
+                <div className="mx-4">Instagram</div>
+                <div className="mx-4">Clubhouse</div>
+                <div className="mx-4">Youtube</div>
+                <div className="mx-4">Github</div>
+            </div>
+        </div>
     </div>
     </>
 )

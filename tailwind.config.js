@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: theme =>({
         'grit': "url('pages/images/gritMount.png')",
+        'grit2': "url('pages/images/grit2.jpg')"
       })
     },
   },
