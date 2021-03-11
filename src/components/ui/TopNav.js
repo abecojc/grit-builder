@@ -1,8 +1,8 @@
 import {Link} from "react-router-dom"
 
 export const TopNav = ()=>(
-    <div className=" fixed top-0 w-full flex justify-between h-16 bg-blue-300">
-        <div className="p-4 m-2 rounded-xl text-white font-bold font-serif bg-black">
+    <div className=" fixed top-0 w-full flex justify-between border-b-4 border-white h-16 bg-blue-300">
+        <div className="pt-3 px-2 m-1 rounded-xl text-white font-mono text-2xl font-sans bg-black">
            Grit
         </div>
         <ul className="p-2 flex justify-between">
@@ -16,13 +16,13 @@ export const TopNav = ()=>(
                 <Link to="/Contact">Contact</Link>
             </li>
             <li className="ml-2">
-                <Link to="/Resources">Resources</Link>
+                <Link to="/Resource">Resource</Link>
             </li>
             <li className="ml-2">
                 <Link to="/Project">Project</Link>
             </li>
             <li className="ml-2">
-                <Link to="/Test">Test</Link>
+                <Link to="/GritTest">Test</Link>
             </li>
             <li className="ml-2">
                 <Link to="/SignIn">Member</Link>
