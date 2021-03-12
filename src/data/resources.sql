@@ -1,0 +1,10 @@
+insert into resources (id, info) values (1, 'http://tinypic.com/nec/nisi/volutpat/eleifend/donec.jpg');
+insert into resources (id, info) values (2, 'http://histats.com/est/risus.xml');
+insert into resources (id, info) values (3, 'http://mit.edu/elementum/pellentesque/quisque/porta/volutpat.html');
+insert into resources (id, info) values (4, 'https://google.co.jp/sed.json');
+insert into resources (id, info) values (5, 'http://t-online.de/blandit/lacinia.jsp');
+insert into resources (id, info) values (6, 'https://imgur.com/ante/vestibulum/ante/ipsum.xml');
+insert into resources (id, info) values (7, 'https://house.gov/consectetuer/adipiscing/elit/proin.json');
+insert into resources (id, info) values (8, 'http://oracle.com/pretium.js');
+insert into resources (id, info) values (9, 'https://ucoz.com/nisl.xml');
+insert into resources (id, info) values (10, 'https://nba.com/at/lorem/integer.aspx');

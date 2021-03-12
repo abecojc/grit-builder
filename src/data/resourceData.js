@@ -1,0 +1,92 @@
+export default
+[{
+    "id": 1,
+    "info": "https://characterlab.org/tips-of-the-week/turn-weakness-into-strength/"
+}, {
+    "id": 2,
+    "info": "https://characterlab.org/tips-of-the-week/harnessing-the-ikea-effect/"
+}, {
+    "id": 3,
+    "info": "https://characterlab.org/tips-of-the-week/ask-dont-tell/"
+}, {
+    "id": 4,
+    "info": "https://characterlab.org/tips-of-the-week/trinity-of-healthy-relationships/"
+}, {
+    "id": 5,
+    "info": "https://characterlab.org/tips-of-the-week/watch-your-words/"
+}, {
+    "id": 6,
+    "info": "https://characterlab.org/tips-of-the-week/under-the-influence/"
+}, {
+    "id": 7,
+    "info": "https://characterlab.org/tips-of-the-week/v-for-vulnerability/"
+}, {
+    "id": 8,
+    "info": "https://characterlab.org/tips-of-the-week/hard-choices/"
+}, {
+    "id": 9,
+    "info": "https://characterlab.org/tips-of-the-week/rituals-as-resets/"
+}, {
+    "id": 10,
+    "info": "https://characterlab.org/tips-of-the-week/facing-the-future/"
+}, {
+    "id": 11,
+    "info": "http://google.ca"
+}, {
+    "id": 12,
+    "info": "https://boston.com"
+}, {
+    "id": 13,
+    "info": "https://eepurl.com"
+}, {
+    "id": 14,
+    "info": "https://baidu.com"
+}, {
+    "id": 15,
+    "info": "http://addthis.com"
+}, {
+    "id": 16,
+    "info": "http://usnews.com"
+}, {
+    "id": 17,
+    "info": "https://wordpress.org"
+}, {
+    "id": 18,
+    "info": "http://merriam-webster.com"
+}, {
+    "id": 19,
+    "info": "https://craigslist.org"
+}, {
+    "id": 20,
+    "info": "http://networksolutions.com"
+}, {
+    "id": 21,
+    "info": "http://home.pl"
+}, {
+    "id": 22,
+    "info": "https://bluehost.com"
+}, {
+    "id": 23,
+    "info": "http://ca.gov"
+}, {
+    "id": 24,
+    "info": "http://netlog.com"
+}, {
+    "id": 25,
+    "info": "http://purevolume.com"
+}, {
+    "id": 26,
+    "info": "https://google.nl"
+}, {
+    "id": 27,
+    "info": "https://cnbc.com"
+}, {
+    "id": 28,
+    "info": "http://furl.net"
+}, {
+    "id": 29,
+    "info": "https://reference.com"
+}, {
+    "id": 30,
+    "info": "http://miibeian.gov.cn"
+}]

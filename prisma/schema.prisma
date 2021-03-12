@@ -43,3 +43,10 @@ model choice {
 
     @@map("choices")
 }
+
+model resource {
+    id Int @id @default(autoincrement())
+    info String
+
+    @@map("resources")
+}

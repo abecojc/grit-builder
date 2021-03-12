@@ -4,10 +4,10 @@ export const  SignIn = () => (
     <>
         <TopNav/>
     <div>
-        <p className=" text-2xl m-12 p-6" >Sign in</p>
+        <p className=" text-2xl m-12 p-6 border-b-4 border-black" >Sign in</p>
 
         <div className="w-96 border-2 bg-blue-300 border-black rounded-xl mt-24 mb-24 mx-12">
-            <form className="border-white border-2 rounded-xl">
+            <form className="border-white border-2 rounded-xl shadow-2xl">
                 <div className="flex flex-col justify-between">
 
                     <div className="m-2 flex flex-col ">
