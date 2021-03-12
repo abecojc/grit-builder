@@ -1,8 +1,8 @@
-import {Footer, TopNav} from "../components/ui"
+import {Footer, TopNav2} from "../components/ui"
 
 export const  SignIn = () => (
     <>
-        <TopNav/>
+        <TopNav2/>
     <div>
         <p className=" text-2xl m-12 p-6 border-b-4 border-black" >Sign in</p>
 

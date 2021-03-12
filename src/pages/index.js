@@ -9,4 +9,4 @@ export {GritTest} from './GritTest'
 
 export {AddProject, SearchProject, UpdateProject, AllProjects} from './Projects'
 export {AllResources, SearchResources, SavedResources, ResourceDetail} from "./Resources"
-export {Questionnaire, Score } from "./Test"
+export {Questionnaire, ResultBox } from "./Test"

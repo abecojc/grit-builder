@@ -1,4 +1,5 @@
-import {Footer, TopNav} from "../../components/ui";
+import {Footer, TopNav2} from "../../components/ui";
+
 import {AllProjects} from "./AllProjects";
 
 export const AddProject = () => {
@@ -6,7 +7,7 @@ export const AddProject = () => {
     return (
 
         <>
-            <TopNav/>
+            <TopNav2/>
             <div className="flex flex-col items-center justify-center bg-blue-300 ">
                 <div className="p-4 mt-12 w-screen">Add New long term Project</div>
 

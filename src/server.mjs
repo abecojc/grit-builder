@@ -14,7 +14,7 @@ app.get("/projects", async (req, res) => {
     const allProjects = await prisma.project.findMany()
         console.log(allProjects)
         res.send({allProjects})
-     res.status(200).json({allProjects})
+     // res.status(200).json({allProjects})
 })
 
 app.get("/job", async (req, res) => {
@@ -25,11 +25,6 @@ app.get("/job", async (req, res) => {
     console.log(job)
     res.send({job})
 
-    // if (job.length === 0){
-    //     res.status(404).json({"message": "No job found"})
-    // }else{
-    //     res.status(200).json({job})
-    // }
 })
 
 app.get("/", (req, res) => res.send({Profile : "Grit app for high school and college students to set long term goals and increase their grit."}))

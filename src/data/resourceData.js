@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 export default
 [{
     "id": 1,
@@ -7,7 +9,7 @@ export default
     "info": "https://characterlab.org/tips-of-the-week/harnessing-the-ikea-effect/"
 }, {
     "id": 3,
-    "info": "https://characterlab.org/tips-of-the-week/ask-dont-tell/"
+    "info": "<Link to=https://characterlab.org/tips-of-the-week/ask-dont-tell/><Link/>"
 }, {
     "id": 4,
     "info": "https://characterlab.org/tips-of-the-week/trinity-of-healthy-relationships/"

@@ -2,7 +2,7 @@ import {Route, Switch} from "react-router-dom"
 import {About, Home, SignIn, Signup, GritTest, Resource, Project, Contact} from "./pages"
 import {AddProject, AllProjects, SearchProject, UpdateProject} from "./pages"
 import {AllResources, SearchResources, SavedResources, ResourceDetail} from "./pages"
-import {Questionnaire, Score} from "./pages"
+import {Questionnaire, ResultBox} from "./pages"
 
 function App() {
     return (
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/Signup" component={Signup}/>
             <Route exact path="/GritTest" component={GritTest} />
             <Route exaxt path="/Questionnaire" component={Questionnaire}/>
-            <Route exact path="/Score" component={Score}/>
+            <Route exact path="/Score" component={ResultBox}/>
         </Switch>
     );
 }

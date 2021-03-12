@@ -13,14 +13,11 @@ export const Home = () => (
             </div>
         </div>
         <Footer/>
-   <div className="h-screen pt-64 pb-14 bg-grit2 bg-contain w-2/3 bg-transparent m-2 rounded-xl bg-auto bg-no-repeat">
+   <div className="h-screen pt-96 bg-grit2 bg-contain w-full bg-transparent m-2 rounded-xl bg-auto bg-no-repeat">
 
-     {/*<Iframe className="absolute w-3/4 h-2/3" url="https://www.youtube.com/watch?v=H14bBuluwB8"/>*/}
-        <div>
-            <Iframes/>
-        </div>
 
-        <div  className="bg-blue-300 flex m-2 justify-center text-white justify-between">
+        <div  className="bg-blue-300 mt-56 flex m-2 justify-center justify-around">
+
             <div className="my-4 p-2">
                 <h2 className="font-bold ">Visitors</h2>
                 <ul>
@@ -59,8 +56,8 @@ export const Home = () => (
             </div>
         </div>
 
-        <div className="my-4 bg-blue-300 flex m-2 text-white justify-between">
-            <h2 className=" font-bold">Social Connect</h2>
+        <div className="my-4 bg-blue-300 m-2 ">
+            <h2 className=" m-4 font-bold">Social Connect</h2>
             <div className="flex w-screen">
                 <div className="mx-2">Facebook</div>
                 <div className="mx-2">Twitter</div>

@@ -1,9 +1,9 @@
-import {Footer, TopNav} from "../components/ui"
+import {Footer, TopNav2} from "../components/ui"
 import {Link} from "react-router-dom";
 
 export const  GritTest = () => (
     <>
-        <TopNav/>
+        <TopNav2/>
         <div className="h-screen p-16 bg-blue-300">
             <p className="text-2xl flex justify-center border-b-2 border-white w-2/5  p-4">Grit Test</p>
             <div className="flex flex-wrap justify-center pt-36">

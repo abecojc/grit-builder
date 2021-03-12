@@ -8,7 +8,7 @@ export const ResourceList = () => {
     return (
         resources.map(
             (resource, index) =>
-                <Link to="/ResourceDetail">
+                <Link to="/">
                     <div className=" bg-blue-300 rounded-xl shadow-xl border-2 border-black p-4 my-2">
 
                         <p className=" text-xl ">Description: {resource.info}</p>

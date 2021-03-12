@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom"
-import {Footer, TopNav} from "../components/ui"
+import {Footer, TopNav2} from "../components/ui"
 
 export const Resource = () => (
     <>
-    <TopNav/>
+    <TopNav2/>
     <div className="h-screen p-16 bg-blue-300">
         <p className="text-2xl flex justify-center border-b-2 border-white w-2/5  p-4">Resources Area</p>
         <div className="flex flex-wrap justify-center pt-36">

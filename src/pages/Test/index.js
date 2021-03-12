@@ -1,2 +1,2 @@
 export { Questionnaire } from './Questionnaire'
-export { Score } from './Score'
+export { ResultBox } from './ResultBox'
